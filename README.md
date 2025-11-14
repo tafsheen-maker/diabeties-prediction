@@ -4,6 +4,7 @@ Diabetes is a chronic disease affecting millions globally. Early prediction help
 This project applies predictive analytics using machine learning models to estimate the probability of diabetes based on clinical features such as glucose level, BMI, insulin levels, and age.
 
 The repository provides:
+	
 	•	Clean and reproducible code
 	•	Notebooks for analysis
 	•	Modular scripts for scaling, preprocessing, training, and evaluating models
@@ -11,6 +12,7 @@ The repository provides:
 	•	Clear folder structure for easy understanding
 
 🎯 Objectives
+
 
 ✔ Understand the dataset through statistical summaries and visual insights
 ✔ Clean and preprocess medical health data
@@ -22,6 +24,7 @@ The repository provides:
 🧹 Data Preprocessing Steps
 
 The raw data contains missing or zero values in medical features. Steps performed:
+
 
 ✔ Handling Missing Values
 	•	Replaced zero values in Glucose, BloodPressure, SkinThickness, Insulin, BMI
@@ -42,6 +45,7 @@ The raw data contains missing or zero values in medical features. Steps performe
 📊 Exploratory Data Analysis
 
 The EDA notebook includes:
+
 	•	Distribution plots for each feature
 	•	Correlation heatmap
 	•	Outcome imbalance visualization
@@ -57,19 +61,23 @@ Three models were trained and compared:
 1️⃣ Logistic Regression
 
 Simple baseline model
+	
 	•	Interpretable
 	•	Good for linear relationships
 
 2️⃣ Random Forest Classifier (Best Model)
+	
 	•	Handles non-linearity
 	•	Robust to noise
 	•	Performs well on medical datasets
 
 3️⃣ XGBoost
+	
 	•	Gradient boosting algorithm
 	•	Strong performance on tabular data
 
 Evaluation metrics included:
+	
 	•	Classification report
 	•	Confusion matrix
 	•	ROC–AUC score
