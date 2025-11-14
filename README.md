@@ -76,6 +76,7 @@ Evaluation metrics included:
 	•	Accuracy, Precision, Recall, F1-Score
   
   🔮 Future Improvements
+  
 	•	Add hyperparameter tuning (GridSearchCV / RandomizedSearchCV)
 	•	Implement cross-validation
 	•	Add SMOTE to handle class imbalance
