@@ -1,0 +1,18 @@
+# Python
+_pycache_/
+*.pyc
+.env
+venv/
+.envrc
+
+# Jupyter
+.ipynb_checkpoints
+
+# Model
+src/model.pkl
+
+# OS
+.DS_Store
+
+# Logs
+logs/
